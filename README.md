@@ -8,3 +8,5 @@ Ejemplos material JavaScript Curso Front End Inacap
 03Controlador_linea.html
 ## 4.- Ejemplo controlador puro js
 04Controlador_puro.html
+## 5.- Ejemplo Operadores aritméticos
+05Operadores_aritmeticos.html
