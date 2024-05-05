@@ -4,3 +4,7 @@ Ejemplos material JavaScript Curso Front End Inacap
 01HTML_CSS_JS.html
 ## 2.- Ejemplo script interno
 02JS_Interno.html
+## 3.- Ejemplo de controlador en linea
+03Controlador_linea.html
+## 4.- Ejemplo controlador puro js
+04Controlador_puro.html
