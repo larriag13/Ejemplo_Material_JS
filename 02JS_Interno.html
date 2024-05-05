@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Haz clic!</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){//Espera a que el DOM esté cargado
+            function createParagraph(){//Función que crea un párrafo
+                let para=document.createElement("p");//Crea un elemento p
+                para.textContent="Haz clic en el botón!";//Le añade un texto
+                document.body.appendChild(para);//Lo añade al body
+            }
+
+            const buttons=document.querySelectorAll("button");//Selecciona todos los botones
+
+            for(let i=0;i<buttons.length;i++){//Recorre los botones
+                buttons[i].addEventListener("click",createParagraph);//Añade un evento a cada botón
+            }
+        });
+    </script>
+</body>
+</html>
